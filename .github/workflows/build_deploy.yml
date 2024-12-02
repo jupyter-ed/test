@@ -1,0 +1,14 @@
+name: build_deploy
+on:
+  workflow_dispatch 
+jobs:   
+  job1: 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    name: call the reusable workflow
+    uses: workflows-and-actions/library/.github/workflows/build_deploy_custom.yml@main
+    with: 
+     build_languages: 'python'
+     build_script_code: 'jupyterlite-xeus'
