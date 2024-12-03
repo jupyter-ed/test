@@ -5,9 +5,10 @@ channels:
 dependencies:
   - python
   - pip
-  - xeus-python
+  - jupyter_server
   - jupyterlite-core
   - jupyterlite-xeus
+  - xeus-python
   - numpy
   - matplotlib
   - pillow
