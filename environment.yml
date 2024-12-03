@@ -3,6 +3,8 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
+  - python
+  - pip
   - xeus-python
   - jupyterlite-core
   - jupyterlite-xeus
