@@ -1,9 +1,13 @@
-name: build-env
+name: env-jupyterlite-xeus-demo
 channels:
+  - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
-  - python
-  - pip
-  - jupyter_server
-  - jupyterlite-core >=0.4.1,<0.5.0
-  - jupyterlite-xeus>=2.0.0,<3
+  - xeus-python
+  - xeus-sqlite
+  - numpy
+  - matplotlib
+  - pillow
+  - ipywidgets
+  - pip:
+      - ipycanvas
