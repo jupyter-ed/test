@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - jupyterlite-core
   - jupyterlite-xeus
   - numpy
   - matplotlib
