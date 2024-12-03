@@ -4,10 +4,3 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - xeus-sqlite
-  - numpy
-  - matplotlib
-  - pillow
-  - ipywidgets
-  - pip:
-      - ipycanvas
