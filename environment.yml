@@ -1,4 +1,4 @@
-name: xeus-python-kernel_test
+name: build-env
 channels:
   - conda-forge
 dependencies:
